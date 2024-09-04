@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <BootstrapNavbar bg="dark" className='p-4' variant="dark" expand="lg" expanded={expanded}>
+    <BootstrapNavbar bg="dark" className='p-2 w-100' variant="dark" expand="lg" expanded={expanded}>
       
       <div className="ml-auto d-flex">
         <BootstrapNavbar.Toggle 

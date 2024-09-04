@@ -1,11 +1,119 @@
-.mainBox{
-    margin: 1rem;
+.mainBox {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     width: 30rem;
     height: 100px;
     background-color: rgb(201, 173, 17);
 }
 
-.subBox{
+.subBox {
     width: 20%;
     height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+
+}
+
+.cityImg {
+    width: 100%;
+    height: 60vh;
+}
+
+.heroText {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 197, 9);
+    margin-top: 7%;
+    font-weight: 600;
+    font-size: 40pt;
+}
+
+.contact {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 197, 9);
+    margin-top: 10%;
+    font-weight: 900;
+    font-size: 70pt;
+    font-style: italic;
+}
+
+.heroContent {
+    position: relative;
+}
+
+.vehicles {
+    width: 100%;
+    position: absolute;
+    margin-top: 220px;
+    text-align: center;
+}
+
+.vehical {
+    margin: 10px;
+    width: 950px;
+}
+
+@media (max-width: 768px) {
+    .vehicles {
+        width: 100%;
+        position: absolute;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .vehical {
+        width: 350px;
+    }
+
+    .mainBox {
+        width: 20rem;
+        height: 80px;
+    }
+
+    .cityImg {
+        width: 100%;
+        height: 28vh;
+    }
+
+    .heroText {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(240, 197, 9);
+        margin-top: 12%;
+        font-weight: 900;
+        font-size: 20pt;
+    }
+
+    .contact {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(240, 197, 9);
+        margin-top: 20%;
+        font-weight: 900;
+        font-size: 20pt;
+        font-style: italic;
+    }
+
+
 }
