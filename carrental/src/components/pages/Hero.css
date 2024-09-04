@@ -1,3 +1,9 @@
+
+.heroBody{
+    height: 90vh;
+    background-color: rgb(230, 177, 4);
+}
+
 .mainBox {
     margin-top: 1rem;
     margin-right: 1rem;
@@ -67,6 +73,11 @@
 }
 
 @media (max-width: 768px) {
+    .heroBody{
+        height: 40vh;
+        background-color: rgb(230, 177, 4);
+    }
+
     .vehicles {
         width: 100%;
         position: absolute;

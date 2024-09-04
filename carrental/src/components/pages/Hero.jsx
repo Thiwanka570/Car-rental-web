@@ -1,13 +1,13 @@
 import React from 'react'
 import './Hero.css';
-import { FaMapLocationDot } from "react-icons/fa6";
-import { FaCalendarAlt } from "react-icons/fa";
+// import { FaMapLocationDot } from "react-icons/fa6";
+// import { FaCalendarAlt } from "react-icons/fa";
 import city from "../../Assest/herocity.jpg"
 import car1 from "../../Assest/car1.png"
 
 function Hero() {
   return (
-    <div>
+    <div className='heroBody'>
       {/* <div className='d-flex justify-content-center align-items-center'>
         <div className='d-flex flex-wrap justify-content-center align-items-center'>
           <div className='mainBox'>
@@ -48,11 +48,11 @@ function Hero() {
           <p>+94 76 570 2044</p>
         </div>
         <div className='vehicles'>
-          <img src={car1} className='vehical' />
+          <img src={car1} className='vehical' alt='Vehical' />
         </div>
       </div>
       <div>
-        <img src={city} className='cityImg' />
+        <img src={city} className='cityImg' alt='City' />
       </div>
 
 

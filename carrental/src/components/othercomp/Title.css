@@ -1,0 +1,25 @@
+.headTitle {
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.semiTitle {
+    font-size: large;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+    .headTitle {
+        margin-top: 10px;
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .semiTitle {
+        font-size: small;
+        font-weight: 600;
+    }
+
+}
