@@ -4,6 +4,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    color: aliceblue;
+    background-image: url('../../Assest/herocity.jpg');
+    margin-top: 50px;
 }
 
 .reservation-description {
@@ -11,7 +14,7 @@
     line-height: 1.5;
     margin-bottom: 20px;
     font-weight: 400;
-    color: #333;
+    /* color: #333; */
     text-align: left;
     width: 40%;
     box-sizing: border-box;
@@ -27,6 +30,7 @@
 }
 
 .reservation-form-box {
+    text-align: center;
     width: 40%;
     background-color: #1f1e1b;
     /* Dark yellow */
@@ -66,15 +70,15 @@
         font-size: small;
         line-height: 1.5;
         font-weight: 400;
-        color: #333;
+        /* color: #333; */
         text-align: justify;
         width: 100%;
         box-sizing: border-box;
     }
 
     .reservation-description-head {
-        font-size: medium;
-        font-weight: 500;
+        font-size: larger;
+        font-weight: 600;
         margin-bottom: 20px;
         text-align: center;
     }

@@ -1,0 +1,98 @@
+.service-header{
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+.service-ceontainer{
+margin-top: 20px;
+}
+
+
+.icons{
+    width: 150px;
+    margin: 10px;
+}
+
+.service-title{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.service-1 {
+    box-sizing: border-box;
+    border: 1px solid rgb(224, 221, 221);
+    width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px; /* Optional: Adds some space inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    min-height: 450px;
+}
+
+
+.service-description{
+    text-align: center;
+    padding: 20px;
+}
+
+.service-container-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .service-header{
+        font-size: larger;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .service-ceontainer{
+    margin-top: 20px;
+    }
+    
+    
+    .icons{
+        width: 150px;
+        margin: 10px;
+    }
+    
+    .service-title{
+        text-align: center;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+    
+    .service-1 {
+        box-sizing: border-box;
+        border: 1px solid rgb(224, 221, 221);
+        width: 300px;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px; /* Optional: Adds some space inside the box */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        min-height: 250px;
+    }
+    
+    
+    .service-description{
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .service-container-list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+}

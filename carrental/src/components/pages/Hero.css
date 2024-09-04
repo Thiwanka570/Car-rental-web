@@ -1,7 +1,7 @@
 
 .heroBody{
-    height: 90vh;
-    background-color: rgb(230, 177, 4);
+    height: 100vh;
+    /* background-color: rgb(230, 177, 4); */
 }
 
 .mainBox {
@@ -75,7 +75,7 @@
 @media (max-width: 768px) {
     .heroBody{
         height: 40vh;
-        background-color: rgb(230, 177, 4);
+        /* background-color: rgb(230, 177, 4); */
     }
 
     .vehicles {
