@@ -1,61 +1,9 @@
-.vehicle-details-container{
-    height: 100vh;
-    
+.vehicle-details-container {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../../Assest/slideback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
 }
-
-.vehicle-details-card{
-    min-height: 600px;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.card-text-area{
-    padding: 10px;
-    width: 250px;
-    text-align: justify;
-
-}
-
-.card-img{
-    width: 400px;
-}
-
-/* .vehicle-details-card {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
-
-
-.card-text-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.vehicle-details-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.vehicle-details-list li {
-    padding: 5px 0;
-    font-size: 1rem;
-}
-
-.price-disclaimer {
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: #888;
-}
-
-.price-disclaimer p {
-    margin: 0;
-}
-

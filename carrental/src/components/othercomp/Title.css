@@ -1,8 +1,19 @@
 .headTitle {
-    margin-top: 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: xx-large;
+    font-weight: 600;
+    color: white;
+}
+
+.headTitleDark {
+    margin-top: 2%;
+    margin-bottom: 5%;
     font-size: xx-large;
     font-weight: 600;
 }
+
+
 
 .semiTitle {
     font-size: large;
@@ -16,6 +27,7 @@
         font-size: x-large;
         font-weight: 600;
     }
+    
 
     .semiTitle {
         font-size: small;

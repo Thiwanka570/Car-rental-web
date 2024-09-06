@@ -5,9 +5,16 @@
     align-items: center;
     justify-content: center;
     color: aliceblue;
+}
+
+.reservation-bg{
     background-image: url('../../Assest/herocity.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 50px;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 2%;
 }
 
 .reservation-description {
@@ -73,7 +80,7 @@
 
 @media (max-width: 768px) {
     .reservation-container {
-        padding: 5px;
+        padding:0px;
     }
 
     .reservation-description{
@@ -97,9 +104,9 @@
         width: 100%;
         background-color: #1f1e1b;
         /* Dark yellow */
-        padding: 10px;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding-bottom: 5px;
     }
 
     .mailBoxHead{
@@ -111,6 +118,7 @@
     }
 
     .form-group {
+        padding: 5px;
         margin-bottom: 15px;
     }
 

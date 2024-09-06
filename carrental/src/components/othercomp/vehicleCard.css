@@ -1,0 +1,113 @@
+.vehicle-details-card {
+    background-color: rgb(255, 255, 255);
+    min-height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.card-text-area {
+    padding: 10px;
+    width: 350px;
+    text-align: justify;
+
+}
+
+.details-img {
+    width: 400px;
+}
+
+
+.card-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vehicle-details-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vehicle-details-list li {
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.price-disclaimer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.price-disclaimer p {
+    margin: 0;
+}
+
+@media (max-width:768px) {
+    .vehicle-details-description{
+        display: none;
+    }
+
+
+    .vehicle-details-card {
+        /* background-color: rgb(95, 38, 38); */
+        min-height: 100px;
+        margin: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+    
+    
+    .card-text-area {
+        padding: 2px;
+        width: 350px;
+        text-align: justify;
+    
+    }
+    
+    .details-img {
+        width: 340px;
+    }
+    
+    
+    .card-text-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .vehicle-details-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .vehicle-details-list li {
+        padding: 1px 0;
+        font-size: 0.8rem;
+    }
+    
+    .price-disclaimer {
+        margin-top: 2px;
+        font-size: 0.8rem;
+        color: #888;
+    }
+    
+    .price-disclaimer p {
+        margin: 0;
+    }
+
+}

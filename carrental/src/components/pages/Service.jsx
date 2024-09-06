@@ -5,11 +5,13 @@ import airdrop from '../../Assest/airdrop.png'
 import airpickup from '../../Assest/airepickup.png'
 import traveling from '../../Assest/traveling.png'
 import fastbooking from '../../Assest/fastbooking.png'
+import Title from '../othercomp/Title'
 
 
 function Service() {
   return (
     <div>
+      <Title head={"OUR SERVICES"} dark={true}/>
       <div className='service-ceontainer'>
         {/* <p className='service-header'>We Do the Best</p> */}
         <div className='service-container-list'>

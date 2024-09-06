@@ -11,6 +11,8 @@ import Service from './components/pages/Service';
 import Reservation from './components/pages/Reservation';
 import Title from './components/othercomp/Title';
 import VehicleDetails from './components/pages/VehicleDetails';
+import VehicleCard from './components/othercomp/VehicleCard';
+import BottomBar from './components/othercomp/BottomBar';
 
 
 function App() {
@@ -21,7 +23,6 @@ function App() {
           <Navbar />
           <Hero/>
           <Service/>
-          {/* <Title head={"BEST IN CITY"} semi={"To Book Taxi Pleace Use The Quick Reservation Form"}/> */}
           <Reservation/>
           <VehicleDetails/>
           {/* <Routes>
@@ -31,6 +32,7 @@ function App() {
             <Route path="/contact" element={<Contacts />} />
           </Routes> */}
         </div>
+        <BottomBar/>
       </Router>
     </div>
   );
