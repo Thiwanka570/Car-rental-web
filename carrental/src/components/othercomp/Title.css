@@ -22,10 +22,18 @@
 
 @media (max-width: 768px) {
 
-    .headTitle {
+    .headTitleDark {
         margin-top: 10px;
         font-size: x-large;
         font-weight: 600;
+    }
+
+    .headTitle {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        font-size: x-large;
+        font-weight: 600;
+        color: white;
     }
     
 
