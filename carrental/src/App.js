@@ -10,6 +10,7 @@ import Contacts from './components/pages/Contacts';
 import Service from './components/pages/Service';
 import Reservation from './components/pages/Reservation';
 import Title from './components/othercomp/Title';
+import VehicleDetails from './components/pages/VehicleDetails';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Service/>
           {/* <Title head={"BEST IN CITY"} semi={"To Book Taxi Pleace Use The Quick Reservation Form"}/> */}
           <Reservation/>
+          <VehicleDetails/>
           {/* <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />

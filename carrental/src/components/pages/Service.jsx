@@ -11,7 +11,7 @@ function Service() {
   return (
     <div>
       <div className='service-ceontainer'>
-        <p className='service-header'>We Do the Best</p>
+        {/* <p className='service-header'>We Do the Best</p> */}
         <div className='service-container-list'>
           <div className='service-1'>
             <div className='service-title'>

@@ -7,6 +7,7 @@
     color: aliceblue;
     background-image: url('../../Assest/herocity.jpg');
     margin-top: 50px;
+    height: 100vh;
 }
 
 .reservation-description {
@@ -58,6 +59,15 @@
     border-radius: 4px;
     color: #fff;
     cursor: pointer;
+}
+
+.mailBoxHead{
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid white ;
+    color: white;
+    text-align: center;
+    font-size: x-large;
 }
 
 
