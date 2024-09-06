@@ -45,7 +45,7 @@ function Hero() {
           <p>BOOK YOUR TAXI NOW !</p>
         </div>
         <div className='contact'>
-          <p>+94 76 570 2044</p>
+          <p>+94 00 000 0000</p>
         </div>
         <div className='vehicles'>
           <img src={car1} className='vehical' alt='Vehical' />
